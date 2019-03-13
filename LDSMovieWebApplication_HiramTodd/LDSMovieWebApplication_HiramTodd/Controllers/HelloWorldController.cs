@@ -8,17 +8,27 @@ namespace LDSMovieWebApplication_HiramTodd.Controllers
         //
         // GET: /HelloWorld/
 
-        public string Index()
+        //public string Index()
+        //{
+        //    return "This is my deafult action...";
+        //}
+
+        public IActionResult Index()
         {
-            return "This is my deafult action...";
+            return View();
         }
 
-        //
         //GET: /HelloWorld/Welcome/
-
-        public string Welcome()
+        // Requires using System.Text.Encoding.Web;
+        public IActionResult Welcome(string name, int NumTimes = 1)
         {
-            return "This is the Welcome action method...";
+            // return "This is the Welcome action method...";
+            // return HtmlEncoder.Default.Encode($"Hello {name}, ID is: {ID}");
+
+            ViewData["Message"] = "Hello " + name;
+            ViewData["NumTimes"] = NumTimes;
+
+            return View();
         }
     }
 }
