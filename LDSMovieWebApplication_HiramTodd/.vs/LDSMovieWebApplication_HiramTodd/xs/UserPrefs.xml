@@ -1,4 +1,32 @@
 ﻿<Properties StartupConfiguration="{93F9ACDC-8655-4BBA-90BF-D00C1D3AD9B7}|Default">
-  <MonoDevelop.Ide.ItemProperties.LDSMovieWebApplication__HiramTodd FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="LDSMovieWebApplication_HiramTodd/Startup.cs">
+    <Files>
+      <File FileName="LDSMovieWebApplication_HiramTodd/Controllers/HelloWorldController.cs" Line="25" Column="1" />
+      <File FileName="LDSMovieWebApplication_HiramTodd/Startup.cs" Line="59" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="LDSMovieWebApplication_HiramTodd" expanded="True">
+            <Node name="LDSMovieWebApplication_HiramTodd" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Startup.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.LDSMovieWebApplication__HiramTodd PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <RunToCursorBreakpoint file="/Users/hiramtodd/Documents/GitHub/LDSMovieWebApplication/LDSMovieWebApplication_HiramTodd/LDSMovieWebApplication_HiramTodd/LDSMovieWebApplication_HiramTodd/Controllers/HelloWorldController.cs" relfile="LDSMovieWebApplication_HiramTodd/Controllers/HelloWorldController.cs" line="1" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
