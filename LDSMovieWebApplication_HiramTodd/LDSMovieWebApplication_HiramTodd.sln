@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LDSMovieWebApplication_HiramTodd", "LDSMovieWebApplication_HiramTodd\LDSMovieWebApplication_HiramTodd.csproj", "{93F9ACDC-8655-4BBA-90BF-D00C1D3AD9B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93F9ACDC-8655-4BBA-90BF-D00C1D3AD9B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93F9ACDC-8655-4BBA-90BF-D00C1D3AD9B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93F9ACDC-8655-4BBA-90BF-D00C1D3AD9B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93F9ACDC-8655-4BBA-90BF-D00C1D3AD9B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
