@@ -1,19 +1,15 @@
 ﻿<Properties StartupConfiguration="{93F9ACDC-8655-4BBA-90BF-D00C1D3AD9B7}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="LDSMovieWebApplication_HiramTodd/Views/HelloWorld/Welcome.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="LDSMovieWebApplication_HiramTodd/Models/Movie.cs">
     <Files>
-      <File FileName="LDSMovieWebApplication_HiramTodd/Controllers/HelloWorldController.cs" Line="21" Column="36" />
-      <File FileName="LDSMovieWebApplication_HiramTodd/Views/HelloWorld/Welcome.cshtml" Line="11" Column="1" />
+      <File FileName="LDSMovieWebApplication_HiramTodd/Models/Movie.cs" Line="17" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="LDSMovieWebApplication_HiramTodd" expanded="True">
             <Node name="LDSMovieWebApplication_HiramTodd" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="HelloWorld" expanded="True">
-                  <Node name="Welcome.cshtml" selected="True" />
-                </Node>
+              <Node name="Models" expanded="True">
+                <Node name="Movie.cs" selected="True" />
               </Node>
             </Node>
           </Node>
