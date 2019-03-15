@@ -9,9 +9,33 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="EntityFramework" Version="6.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.2.3" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.2" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Views\HelloWorld\" />
+    <Folder Include="Data\" />
+    <Folder Include="Views\Movies\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Controllers\MoviesController2.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Data\MvcMovieContext.cs">
+      <IncludeInPackage>true</IncludeInPackage>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Startup.cs">
+      <IncludeInPackage>true</IncludeInPackage>
+    </Compile>
+    <Compile Update="Controllers\MoviesController.cs">
+      <IncludeInPackage>true</IncludeInPackage>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Update="Views\Shared\Error.cshtml">
+      <IncludeInPackage>true</IncludeInPackage>
+    </Content>
   </ItemGroup>
 </Project>

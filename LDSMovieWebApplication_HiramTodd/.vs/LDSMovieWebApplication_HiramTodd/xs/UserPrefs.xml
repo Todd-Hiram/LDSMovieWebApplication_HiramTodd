@@ -1,15 +1,28 @@
 ﻿<Properties StartupConfiguration="{93F9ACDC-8655-4BBA-90BF-D00C1D3AD9B7}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="LDSMovieWebApplication_HiramTodd/Models/Movie.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="LDSMovieWebApplication_HiramTodd/Views/Home/Index.cshtml">
     <Files>
-      <File FileName="LDSMovieWebApplication_HiramTodd/Models/Movie.cs" Line="17" Column="1" />
+      <File FileName="LDSMovieWebApplication_HiramTodd/wwwroot/lib/bootstrap/dist/css/bootstrap.css" Line="8386" Column="6" />
+      <File FileName="LDSMovieWebApplication_HiramTodd/Views/Home/Index.cshtml" Line="5" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="LDSMovieWebApplication_HiramTodd" expanded="True">
             <Node name="LDSMovieWebApplication_HiramTodd" expanded="True">
-              <Node name="Models" expanded="True">
-                <Node name="Movie.cs" selected="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="lib" expanded="True">
+                  <Node name="bootstrap" expanded="True">
+                    <Node name="dist" expanded="True">
+                      <Node name="css" expanded="True" />
+                    </Node>
+                  </Node>
+                </Node>
               </Node>
             </Node>
           </Node>
@@ -24,9 +37,7 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.LDSMovieWebApplication__HiramTodd PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <RunToCursorBreakpoint file="/Users/hiramtodd/Documents/GitHub/LDSMovieWebApplication/LDSMovieWebApplication_HiramTodd/LDSMovieWebApplication_HiramTodd/LDSMovieWebApplication_HiramTodd/Controllers/HelloWorldController.cs" relfile="LDSMovieWebApplication_HiramTodd/Controllers/HelloWorldController.cs" line="1" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
