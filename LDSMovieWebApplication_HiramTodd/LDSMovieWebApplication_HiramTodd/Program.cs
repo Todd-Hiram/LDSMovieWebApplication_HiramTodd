@@ -1,8 +1,8 @@
-﻿using Microsoft.AspNetCore;
+﻿using System;
+using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using System;
 using Microsoft.EntityFrameworkCore;
 using LDSMovieWebApplication_HiramTodd;
 using LDSMovieWebApplication_HiramTodd.Models;
