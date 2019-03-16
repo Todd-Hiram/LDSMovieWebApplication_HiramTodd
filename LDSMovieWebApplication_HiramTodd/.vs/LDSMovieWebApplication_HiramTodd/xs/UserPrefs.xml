@@ -1,14 +1,22 @@
 ﻿<Properties StartupConfiguration="{93F9ACDC-8655-4BBA-90BF-D00C1D3AD9B7}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="LDSMovieWebApplication_HiramTodd/Startup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="LDSMovieWebApplication_HiramTodd/Views/Movies/Index.cshtml">
     <Files>
-      <File FileName="LDSMovieWebApplication_HiramTodd/Startup.cs" Line="36" Column="92" />
+      <File FileName="LDSMovieWebApplication_HiramTodd/Views/Movies/Delete.cshtml" Line="6" Column="1" />
+      <File FileName="LDSMovieWebApplication_HiramTodd/Migrations/20190315155272_Rating.Designer.cs" Line="14" Column="48" />
+      <File FileName="LDSMovieWebApplication_HiramTodd/Views/Movies/Edit.cshtml" Line="5" Column="2" />
+      <File FileName="LDSMovieWebApplication_HiramTodd/Views/Movies/Index.cshtml" Line="18" Column="29" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="LDSMovieWebApplication_HiramTodd" expanded="True">
             <Node name="LDSMovieWebApplication_HiramTodd" expanded="True">
-              <Node name="Startup.cs" selected="True" />
+              <Node name="Migrations" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Movies" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
+              </Node>
             </Node>
           </Node>
         </State>
@@ -22,7 +30,9 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.LDSMovieWebApplication__HiramTodd PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <RunToCursorBreakpoint file="/Users/hiramtodd/Documents/GitHub/LDSMovieWebApplication/LDSMovieWebApplication_HiramTodd/LDSMovieWebApplication_HiramTodd/LDSMovieWebApplication_HiramTodd/Views/Movies/Create.cshtml" relfile="LDSMovieWebApplication_HiramTodd/Views/Movies/Create.cshtml" line="1" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

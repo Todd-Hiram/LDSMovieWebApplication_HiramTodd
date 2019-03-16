@@ -22,6 +22,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Controllers\MoviesController2.cs" />
+    <Compile Remove="LDSMovieWebApplication_HiramTodd.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Update="Data\MvcMovieContext.cs">
@@ -37,6 +38,8 @@
   <ItemGroup>
     <Content Remove="Views\Home\About.cshtml" />
     <Content Remove="Views\Home\MovieApp.cshtml" />
+    <Content Remove="LDSMoviesWebApplication_HiramTodd.cshtml" />
+    <Content Remove="LDSMovieWebApplication_HiramTodd.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Update="Views\Shared\Error.cshtml">
@@ -54,5 +57,8 @@
     <Content Update="Views\Movies\Index.cshtml">
       <IncludeInPackage>true</IncludeInPackage>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LDSMovieWebApplication_HiramTodd.csproj" />
   </ItemGroup>
 </Project>

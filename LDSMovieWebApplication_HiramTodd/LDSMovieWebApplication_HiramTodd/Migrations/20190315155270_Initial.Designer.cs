@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace MvcMovie.Migrations
 {
     [DbContext(typeof(MvcMovieContext))]
-    [Migration("20190315155269_Initial")]
+    [Migration("20190315155270_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -19,7 +19,7 @@ namespace MvcMovie.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("MvcMovie.Models.Movie", b =>
+            modelBuilder.Entity("LDSMovieWebApplication_HiramTodd.Models.Movie", b =>
             {
                 b.Property<int>("Id")
                     .ValueGeneratedOnAdd()
@@ -30,6 +30,8 @@ namespace MvcMovie.Migrations
                 b.Property<decimal>("Price");
 
                 b.Property<DateTime>("ReleaseDate");
+
+                b.Property<string>("Rating");
 
                 b.Property<string>("Title");
 
