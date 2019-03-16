@@ -18,6 +18,7 @@
     <Folder Include="Views\HelloWorld\" />
     <Folder Include="Data\" />
     <Folder Include="Views\Movies\" />
+    <Folder Include="Migrations\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Controllers\MoviesController2.cs" />
@@ -34,7 +35,23 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Remove="Views\Home\About.cshtml" />
+    <Content Remove="Views\Home\MovieApp.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
     <Content Update="Views\Shared\Error.cshtml">
+      <IncludeInPackage>true</IncludeInPackage>
+    </Content>
+    <Content Update="wwwroot\lib\bootstrap\dist\css\bootstrap.css">
+      <IncludeInPackage>true</IncludeInPackage>
+    </Content>
+    <Content Update="Views\Home\Privacy.cshtml">
+      <IncludeInPackage>true</IncludeInPackage>
+    </Content>
+    <Content Update="Views\Shared\_Layout.cshtml">
+      <IncludeInPackage>true</IncludeInPackage>
+    </Content>
+    <Content Update="Views\Movies\Index.cshtml">
       <IncludeInPackage>true</IncludeInPackage>
     </Content>
   </ItemGroup>
