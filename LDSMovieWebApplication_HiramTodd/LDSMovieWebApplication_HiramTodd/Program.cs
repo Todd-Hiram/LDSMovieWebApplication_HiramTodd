@@ -4,10 +4,9 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore;
-using LDSMovieWebApplication_HiramTodd;
 using LDSMovieWebApplication_HiramTodd.Models;
 
-namespace MvcMovie
+namespace LDSMovieWebApplication_HiramTodd
 {
     public class Program
     {

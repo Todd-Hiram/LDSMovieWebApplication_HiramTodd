@@ -8,6 +8,7 @@ namespace LDSMovieWebApplication_HiramTodd.Models
     {
         public int Id { get; set; }                 // The Id field which is required by the database for the primary key.
 
+        [Required]
         [StringLength(60, MinimumLength = 3)]
         public string Title { get; set; }
 

@@ -3,10 +3,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
-using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using LDSMovieWebApplication_HiramTodd.Models;
 
-namespace MvcMovie.Migrations
+namespace LDSMovieWebApplication_HiramTodd.Migrations
 {
     [DbContext(typeof(MvcMovieContext))]
     [Migration("20190315155272_Rating")]
@@ -20,7 +19,7 @@ namespace MvcMovie.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("LDSMovieWebApplication_HiramTodd.Models.Movie", b =>
+            modelBuilder.Entity("LDSMovies.Models.Movie", b =>
             {
                 b.Property<int>("Id")
                     .ValueGeneratedOnAdd()

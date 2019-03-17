@@ -53,15 +53,6 @@ namespace LDSMovieWebApplication_HiramTodd.Models
                         Genre = "Documentary",
                         Rating = "PG",
                         Price = 4.75M
-                    },
-
-                    new Movie
-                    {
-                        Title = "God's Army",
-                        ReleaseDate = DateTime.Parse("2000-3-10"),
-                        Genre = "Religious",
-                        Rating = "PG",
-                        Price = 15.66M
                     }
                 );
                 context.SaveChanges();
